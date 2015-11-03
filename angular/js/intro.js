@@ -34,5 +34,9 @@ angular.module('AngularIntro', [])  //this returns a new module object
         //the page to see how the default value of the model is
         //automatically shown in the view on page load
 
-        $scope.name = null; //this is the initial value of the name
+        $scope.name = 'Anya'; //this is the initial value of the name
+        $scope.age = 20;
+        $scope.sayHello = function() {
+            alert('hello');
+        }
     });
