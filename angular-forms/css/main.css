@@ -20,17 +20,21 @@ footer {
     font-size: 0.8em;
 }
 
-tfoot td {
+tfoot {
     font-size: 0.8em;
+}
+
+form .ng-dirty.ng-valid {
+    border: 1px solid #00DD00;
+}
+
+form .ng-dirty.ng-invalid {
+    border: 1px solid #DD0000;
 }
 
 .validation-error {
     color: #DD0000;
     font-size: 0.8em;
-}
-
-form .ng-dirty .ng-valid {
-    border: 1px solid #00DD00;
 }
 
 @media (min-width: 768px) {
