@@ -1,15 +1,4 @@
-<<<<<<< HEAD
 
-angular.module('Movies', [])
-	.controller('MoviesController', function($scope, $http) {
-		var ratingsMap = {
-			'Not Rated': 0,
-			'G': 1,
-			'PG': 2,
-			'PG-13': 3,
-			'R': 4,
-			'NC-17': 5,
-			'X': 6
 		}
 		$http.get('data/movies-2014.min.json')
 			.then(function(results) {
